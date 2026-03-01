@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "personal-website",
+      "runtimeExecutable": "C:/Python312/python.exe",
+      "runtimeArgs": ["-m", "http.server", "3000", "--directory", "C:/develop/ky61.github.io"],
+      "port": 3000
+    }
+  ]
+}

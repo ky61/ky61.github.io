@@ -1,0 +1,150 @@
+body {
+  background: #ffffff;
+  color: #0f0f0f;
+  font-family: Meiryo;
+  padding: 0;
+  margin: 0;
+}
+
+div.site-header{
+  background-color: #2f2f2f;
+  width: 100%;
+  height: 60px;
+  padding: 30px 20px;
+  position: fixed;
+  justify-content: space-between;
+}
+div.site-body{
+  background: #efefef;
+  padding-top: 120px;
+  width: 100%;
+}
+div.site-contents{
+  background: #f7f7f7;
+  width: 70%;
+  padding: 20px 50px 100px 50px;
+  margin: 0px auto;
+}
+div.site-footer{
+  background: #2f2f2f;
+  width: 100%;
+  padding: 4px 20px;
+  color: #efefef;
+}
+h3{
+  float : none;
+  padding: 0;
+  margin: 0;
+}
+
+.product_contents_f{
+  width: 98%;
+  height: 20vw;
+  background-color: #e8e8e8;
+  margin: 3% 1% 1% 1%;
+}
+.product_title_f{
+  width: 65%;
+  float: left;
+  background-color: #3f3f3f;
+  color: #efefef;
+  padding: 0.5% 2% 0.5% 3%;
+  font-weight: bold;
+  font-size: 1.5vw;
+  white-space: nowrap;
+}
+.product_period_f{
+  width: 25%;
+  float: right;
+  background-color: #3f3f3f;
+  color: #efefef;
+  padding: 0.5% 3% 0.5% 2%;
+  white-space: nowrap;
+  font-size: 1.5vw;
+}
+.product_line_f{
+  width: 100%;
+  height: 3px;
+  background-color: #afafaf;
+  float: left;
+  white-space: nowrap;
+}
+.product_image_f{
+  width: 28%;
+  float: left;
+
+  padding : 1% 0% 1% 2%;
+}
+
+@media screen and (max-width: 1600px){
+.product_description_f{
+  width: 64%;
+  float: right;
+  height: 15vw;
+  padding :2% 3%;
+  font-size: 1.3vw;
+}
+}
+
+@media screen and (min-width: 1600px){
+.product_description_f{
+  width: 64%;
+  float: right;
+  height: 15vw;
+  padding :2% 3%;
+  font-size: 1vw;
+}
+}
+
+.product_image{
+  width: 100%;
+  height: 15vw;
+  object-fit: contain;
+}
+
+
+.photo{
+  margin: 30px 15px;
+}
+
+.bibli{
+  margin: 10px 0px;  
+  font-size: 85%;
+}
+
+/*ヘッダ(メニューバー)*/
+.site-header ul {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 80px;
+  padding-left: 20px;
+  overflow: hidden;
+}
+.site-header li {
+  float: right;
+  border-right: 1px solid #bbbbbb;
+}
+.site-header li:first-child {
+  float: left;
+  border-right: 0px solid #bbbbbb;
+}
+.site-header li t {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.site-header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.site-header li a:hover:not(.active) {
+  color: #a9bce2;
+}
+.site-header .active {
+  background-color: #da3c41;
+}

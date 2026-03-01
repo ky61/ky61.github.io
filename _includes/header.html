@@ -1,0 +1,11 @@
+<div class="site-header">
+  <ul>
+    <li><a href="/"><h3>Hiroyuki Karasawa's webpage</h3></a></li>
+    <li><a href="/other.html"{% if page.url == '/other.html' %} class="active"{% endif %}>Other</a></li>
+    <li><a href="/product.html"{% if page.url == '/product.html' %} class="active"{% endif %}>Product</a></li>
+    <li><a href="/publication.html"{% if page.url == '/publication.html' %} class="active"{% endif %}>Publication</a></li>
+    <li><a href="/research.html"{% if page.url == '/research.html' %} class="active"{% endif %}>Research</a></li>
+    <li><a href="/about.html"{% if page.url == '/about.html' %} class="active"{% endif %}>About</a></li>
+    <li><a href="/"{% if page.url == '/' %} class="active"{% endif %}>Top</a></li>
+  </ul>
+</div>

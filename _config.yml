@@ -1,0 +1,7 @@
+title: Hiroyuki Karasawa's webpage
+lang: ja
+encoding: utf-8
+exclude:
+  - old_page/
+  - .claude/
+  - README.md
