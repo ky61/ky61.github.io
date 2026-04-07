@@ -191,9 +191,7 @@ h4 {
   padding: 10px 16px;
   display: flex;
   align-items: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
 }
 
 .product_period_f {
